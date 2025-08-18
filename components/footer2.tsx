@@ -26,22 +26,22 @@ interface Footer2Props {
 
 const Footer2 = ({
   logo = {
-    src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg",
-    alt: "blocks for shadcn/ui",
-    title: "Shadcnblocks.com",
-    url: "https://www.shadcnblocks.com",
+    src: "/ocpr.svg",
+    alt: "VoyAIge — AI Travel Agent",
+    title: "VoyAIge",
+    url: "https://voyAIge.app",
   },
-  tagline = "Components made easy.",
+  tagline = "Plan smarter trips with AI — web + WhatsApp.",
   menuItems = [
     {
       title: "Product",
       links: [
         { text: "Overview", url: "#" },
-        { text: "Pricing", url: "#" },
-        { text: "Marketplace", url: "#" },
-        { text: "Features", url: "#" },
+        { text: "Destination Picks (3 Cards)", url: "#" },
+        { text: "Flights & Hotels", url: "#" },
+        { text: "AI Itineraries", url: "#" },
         { text: "Integrations", url: "#" },
-        { text: "Pricing", url: "#" },
+        { text: "Calendar Sync", url: "#" },
       ],
     },
     {
@@ -58,21 +58,21 @@ const Footer2 = ({
     {
       title: "Resources",
       links: [
-        { text: "Help", url: "#" },
-        { text: "Sales", url: "#" },
-        { text: "Advertise", url: "#" },
+        { text: "Help Center", url: "#" },
+        { text: "API & Integrations", url: "#" },
+        { text: "Partners & Affiliates", url: "#" },
       ],
     },
     {
       title: "Social",
       links: [
-        { text: "Twitter", url: "#" },
+        { text: "Twitter / X", url: "#" },
         { text: "Instagram", url: "#" },
         { text: "LinkedIn", url: "#" },
       ],
     },
   ],
-  copyright = "© 2024 Shadcnblocks.com. All rights reserved.",
+  copyright = "© 2025 VoyAIge. All rights reserved.",
   bottomLinks = [
     { text: "Terms and Conditions", url: "#" },
     { text: "Privacy Policy", url: "#" },
@@ -85,7 +85,7 @@ const Footer2 = ({
           <div className="grid grid-cols-2 gap-8 lg:grid-cols-6">
             <div className="col-span-2 mb-8 lg:mb-0">
               <div className="flex items-center gap-2 lg:justify-start">
-                <Logo url="https://shadcnblocks.com">
+                <Logo url={logo.url}>
                   <LogoImage
                     src={logo.src}
                     alt={logo.alt}

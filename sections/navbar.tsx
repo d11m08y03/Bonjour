@@ -8,7 +8,7 @@ export default function Navbar() {
       <nav className="container mx-auto flex items-center justify-between">
         <div className="flex items-center gap-6">
           <Link href="/" className="font-bold text-lg">
-            Dodogo
+            VoyAIge
           </Link>
           <div className="hidden md:flex items-center gap-4">
             <Link href="#" className="text-sm font-medium text-muted-foreground">
