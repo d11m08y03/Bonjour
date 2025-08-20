@@ -27,8 +27,12 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-2">
           <ModeToggle />
-          <Button variant="ghost">Sign In</Button>
-          <Button>Sign Up</Button>
+          <Button asChild variant="ghost">
+            <Link href="https://dodo-go.vercel.app/">Sign In</Link>
+          </Button>
+          <Button asChild>
+            <Link href="https://dodo-go.vercel.app/">Sign Up</Link>
+          </Button>
         </div>
       </nav>
     </header>
